@@ -1,0 +1,78 @@
+Desafio: Implementação de Práticas DevOps em um Ambiente Empresarial Fictício
+
+## Descrição da empresa
+
+A **Tech** é uma empresa fictícia especializada em desenvolvimento de software, que oferece soluções inovadoras para clientes de diversos setores. Sua missão é simplificar a vida das pessoas através da tecnologia.
+
+### Equipe:
+
+- Desenvolvimento: 14 desenvolvedores com experiência em Java, C# e JavaScript. Apenas um profissional tem conhecimento em Delphi, a linguagem do sistema legado.
+- Operações: A equipe de operações, composta por 4 profissionais, enfrenta desafios para manter a infraestrutura de TI e os sistemas em funcionamento eficiente, frequentemente lidando com problemas de escalabilidade e desempenho.
+
+### Projetos em andamento
+
+1. Sistema de Gestão de Vendas (LEGADO): Um aplicativo para gerenciamento de vendas que inclui controle de estoque, emissão de notas fiscais e relatórios de vendas.
+2. Plataforma de E-commerce: uma plataforma de e-commerce escalável para clientes do setor varejista.
+
+### Descrição dos processos atuais da empresa
+
+1. **Entrega de Código:** Após a conclusão do desenvolvimento de um novo recurso, os desenvolvedores preparam um pacote de implantação e o encaminham à equipe de operações.
+2. **Deploy:** O deploy é realizado manualmente no ambiente de produção, sem seguir um procedimento padronizado ou utilizar automação.
+3. **Testes:** A equipe de operações conduz testes manuais no ambiente para verificar a funcionalidade e a integridade do código após o deploy em produção.
+4. **Monitoramento:** Após o deploy, a equipe de operações monitora manualmente o sistema de logs do servidor, para identificar problemas ou falhas que possam surgir.
+
+### Dados de desempenho:
+
+- Tempo médio entre a entrega do código e o deploy: 2 dias.
+- Taxa de sucesso dos deploys manuais: 80%.
+- Número de incidentes após o deploy: média de 2 por semana.
+- Tempo médio de recuperação (MTTR) de incidentes: 4 horas.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+1. Diagnóstico Cultural (C de CALMS):
+
+Processo Identificado: Entrega de código e deploy em produção.
+
+Problemas:
+
+- Cultura de Culpa: Conflito constante entre Dev e Ops devido à falta de clareza sobre a causa dos erros de deploy.
+- Alto MTTR (Tempo Médio de Recuperação): A falta de padronização do processo torna a análise e correção de erros um processo lento e doloroso (4 horas).
+- Longo Lead Time (Tempo de Entrega): O processo manual e a burocracia fazem com que uma funcionalidade leve 2 dias para ir do desenvolvedor à produção.
+- Risco para o Negócio: Testes em produção expõem os clientes a falhas, afetando a receita e a reputação da empresa.
+
+Oportunidades de Melhoria:
+
+- Implementar ambientes de teste padronizados e idênticos à produção.
+- Estabelecer um processo de deploy padronizado e documentado.
+- Automatizar o processo de deploy através de scripts e ferramentas.
+
+2. Plano de Automação (A / L de CALMS):
+
+- Instituir um repositório de código central. Para ter uma única fonte da verdade para todo o código.
+- Implementar um processo de testes automatizados (CI). Para dar feedback rápido aos devs e garantir a qualidade antes que o código chegue em Operações.
+- Automatizar o "Build" do pacote de implantação. Para criar pacotes padronizados e confiáveis, eliminando erros de empacotamento manual.
+- Automatizar o deploy (CD). Para entregar o pacote testado e aprovado ao ambiente de produção de forma rápida, segura e consistente.
+
+3. Métricas (M de CALMS):
+
+- Tempo médio de entrega: de 2 dias para <2h
+- Taxa de Sucesso de Deploys: de 80% para 99%
+- Numero de incidentes Pós-Deploy: de 2 por semana para 1 por trimestre
+- MTTR: de 4h para <1h
+
+4. Compartilhamento (S de CALMS):
+
+- Demo / Showcase em uma Reunião:
+Para Dev e Ops Team em uma daily. Para gerentes de projeto ou diretoria, mostrar painel de métricas "Antes e Depois" dos resultados.
+- Disponibilizar um Fluxograma:
+Deixar um fluxograma em um canal interno. Qualquer pessoa na empresa, nova ou antiga, pode entender rapidamente como é o processo.
+- Realizar Treinamentos:
+Garante que todos saibam como o novo processo funciona, aumentando a confiança e a adoção.
+- Celebrar as vitórias (deploys rápidos, metas atingidas) publicamente.
+
+5. Três Maneiras:
+
+- 1ª Maneira (Fluxo): Otimizada pela automação do pipeline, eliminando esperas manuais.
+- 2ª Maneira (Feedback): Ampliada pelos testes automatizados que fornecem feedback em minutos.
+- 3ª Maneira (Aprendizagem): Fomentada pela "rede de segurança" do pipeline, que torna seguro experimentar e aprender com as falhas.
