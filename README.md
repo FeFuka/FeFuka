@@ -3,6 +3,13 @@
 # I'm Felipe Fucamizu
 
 I'm an Electronic Engineer pivoting my career into the world of **Cloud Computing, DevOps, and IT Infrastructure**. I leverage my engineering background in logical problem-solving and process optimization to build efficient and automated solutions. 
+
+---
+
+### 🔥 Featured Projects:
+
+* **[AWS & Docker Deploy Lab](https://github.com/FeFuka/lab-devops-cloud)**: Containerized a static web application using **Docker** (Nginx/Alpine) and performed a manual deployment to an **AWS EC2** instance, utilizing **Amazon ECR** for secure image registry management and IAM Roles for access control. *(Include architecture diagrams!)*
+
 ---
 
 ### 🚀 I'm Currently Focused On:
@@ -15,8 +22,6 @@ I'm an Electronic Engineer pivoting my career into the world of **Cloud Computin
 ---
 
 ### 💻 My Tech Stack:
-
-Here are some of the technologies I've been working with:
 
 <p align="left">
   <a href="https://www.python.org" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
@@ -32,7 +37,7 @@ Here are some of the technologies I've been working with:
 ### 📊 My GitHub Stats:
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FeFuka&show_icons=true&theme=radical" alt="Your GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=FeFuka&show_icons=true&theme=radical" alt="Felipe's GitHub Stats" />
 </p>
 
 ---
@@ -40,7 +45,10 @@ Here are some of the technologies I've been working with:
 ### 📫 Connect with Me:
 
 <p align="left"> 
-  <a href="https://www.linkedin.com/in/felipefucamizu/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a><a href="mailto:felipemfuka@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a><a href="https://www.instagram.com/SEU_USUARIO_AQUI" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://www.linkedin.com/in/felipefucamizu/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:felipemfuka@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
 </p>
 
-<a href="https://app.rocketseat.com.br/me/felipefuka49"><img src="https://app.rocketseat.com.br/api/rocketid/share?slug=felipefuka49&type=card" width="280" alt="Felipe Massashi Fucamizu's Rocket ID"/></a>
+<br>
+
+<a href="https://app.rocketseat.com.br/me/felipefuka49"><img src="https://app.rocketseat.com.br/api/rocketid/share?slug=felipefuka49&type=card" width="280" alt="Felipe's Rocket ID"/></a>
